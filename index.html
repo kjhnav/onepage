@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 비즈니스 랜딩 페이지</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f8f9fa; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        /* 광고 이미지 영역 */
+        .ad-image { width: 100%; height: auto; display: block; }
+        .content { padding: 40px 20px; }
+        h1 { font-size: 24px; color: #333; }
+        p { color: #666; margin-bottom: 30px; }
+        /* 버튼 스타일 */
+        .btn { display: flex; align-items: center; justify-content: center; padding: 15px; margin: 10px 0; 
+               text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; transition: 0.3s; }
+        .btn-kakao { background-color: #FEE500; color: #3c1e1e; }
+        .btn-tel { background-color: #28a745; color: #fff; }
+        .btn-mail { background-color: #007bff; color: #fff; }
+        .btn:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 상단 광고 이미지: 본인의 이미지 URL로 교체하세요 -->
+        <img src="https://github.com/jeehyoungkim-lab/images/blob/main/03.PNG?raw=true" alt="광고 이미지" class="ad-image">
+
+        <div class="content">
+            <h1>환영합니다! 궁금한 점이 있으신가요?</h1>
+            <p>아래 버튼을 클릭하면 바로 연결됩니다.</p>
+
+            <!-- 카카오톡: 채널 링크 또는 채팅방 URL 입력 -->
+            <a href="https://pf.kakao.com" class="btn btn-kakao">카카오톡 상담하기</a>
+            
+            <!-- 전화: tel:번호 형식 유지 -->
+            <a href="tel:010-1234-5678" class="btn btn-tel">전화 바로 걸기</a>
+            
+            <!-- 메일: mailto:주소 형식 유지 -->
+            <a href="mailto:example@email.com" class="btn btn-mail">이메일 문의하기</a>
+        </div>
+    </div>
+</body>
+</html>
