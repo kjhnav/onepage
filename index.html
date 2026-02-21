@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내 비즈니스 랜딩 페이지</title>
-    <style>
-        body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f8f9fa; }
-        .container { max-width: 600px; margin: 0 auto; background: #fff; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        /* 광고 이미지 영역 */
-        .ad-image { width: 100%; height: auto; display: block; }
-        .content { padding: 40px 20px; }
-        h1 { font-size: 24px; color: #333; }
-        p { color: #666; margin-bottom: 30px; }
-        /* 버튼 스타일 */
-        .btn { display: flex; align-items: center; justify-content: center; padding: 15px; margin: 10px 0; 
-               text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; transition: 0.3s; }
-        .btn-kakao { background-color: #FEE500; color: #3c1e1e; }
-        .btn-tel { background-color: #28a745; color: #fff; }
-        .btn-mail { background-color: #007bff; color: #fff; }
-        .btn:hover { opacity: 0.8; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>내 비즈니스 랜딩 페이지</title>
+
+  <!-- Open Graph 태그 (카톡, 페북 등 공유 미리보기용) -->
+  <meta property="og:title" content="내 비즈니스 상담 페이지">
+  <meta property="og:description" content="카카오톡, 전화, 이메일로 빠르게 상담하세요!">
+  <meta property="og:image" content="https://github.com/jeehyoungkim-lab/images/blob/main/03.PNG?raw=true">
+  <meta property="og:url" content="https://example.com/landing">
+  <meta property="og:type" content="website">
+
+  <!-- 트위터 카드 태그 (트위터 공유 시) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="내 비즈니스 상담 페이지">
+  <meta name="twitter:description" content="카카오톡, 전화, 이메일로 빠르게 상담하세요!">
+  <meta name="twitter:image" content="https://github.com/jeehyoungkim-lab/images/blob/main/03.PNG?raw=true">
+
+  <style>
+    body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f8f9fa; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; min-height: 100vh; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .ad-image { width: 100%; height: auto; display: block; }
+    .content { padding: 40px 20px; }
+    h1 { font-size: 24px; color: #333; }
+    p { color: #666; margin-bottom: 30px; }
+    .btn { display: flex; align-items: center; justify-content: center; padding: 15px; margin: 10px 0; 
+           text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; transition: 0.3s; }
+    .btn-kakao { background-color: #FEE500; color: #3c1e1e; }
+    .btn-tel { background-color: #28a745; color: #fff; }
+    .btn-mail { background-color: #007bff; color: #fff; }
+    .btn:hover { opacity: 0.8; }
+  </style>
 </head>
+
 <body>
     <div class="container">
         <!-- 상단 광고 이미지: 본인의 이미지 URL로 교체하세요 -->
